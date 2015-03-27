@@ -1,57 +1,42 @@
 //
 //  ViewController.swift
-//  BasicInteraction
+//  Example
 //
-//  Created by Chris on 2/7/15.
-//  Copyright (c) 2015 Chris Grant. All rights reserved.
+//  Created by Heiko Dreyer on 08/12/14.
+//  Copyright (c) 2014 boxedfolder.com. All rights reserved.
 //
 
 import UIKit
 
-
-class ViewController: UIViewController, UITextFieldDelegate {
-
-    @IBOutlet weak var simpleLabel: UILabel!
-    
-    @IBOutlet weak var simpleTF: UITextField!
+class ViewController: UIViewController, UITextFieldDelegate  {
     @IBOutlet var activityIndicatorView: UIActivityIndicatorView?
-    var client: Sweather?
-    @IBAction func changeLabel(sender: AnyObject) {
-            //simpleLabel.text = "Hello, " + simpleTF.text + "!"
-            textFieldShouldReturn(simpleTF)
-    }
+    @IBOutlet var textField: UITextField?
+    @IBOutlet var textView: UITextView?
     
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
-        textField.resignFirstResponder();
-        return false
-    }
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
-        self.view.endEditing(true)
-    }
+    var client: Sweather?
+                            
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        
+        client = Sweather(apiKey: "your_key")
+        activityIndicatorView?.hidden = true
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+
     func textFieldShouldReturn(textField: UITextField!) -> Bool {
         if !textField.text.isEmpty {
-            client?.apiKey = "9a85132f8556b342ab717a512c7386b9"
-            simpleTF?.text = ""
+            textView?.text = ""
             textField.resignFirstResponder()
             activityIndicatorView?.hidden = false;
             client?.currentWeather(textField.text) { result in
                 self.activityIndicatorView?.hidden = true;
                 switch result {
                 case .Error(let response, let error):
-                    self.simpleLabel?.text = "Some error occured. Try again."
+                    self.textView?.text = "Some error occured. Try again."
                 case .Success(let response, let dictionary):
-                    self.simpleLabel?.text = "Received data: \(dictionary)"
+                    self.textView?.text = "Received data: \(dictionary)"
                     
                     // Get temperature for city this way
                     let city = dictionary["name"] as? String;
@@ -63,6 +48,5 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
         return false
     }
-
 }
 

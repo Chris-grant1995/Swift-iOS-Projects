@@ -13,6 +13,8 @@
 		8379D6391A869DD9002FDDF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8379D6381A869DD9002FDDF7 /* Images.xcassets */; };
 		8379D63C1A869DD9002FDDF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8379D63A1A869DD9002FDDF7 /* LaunchScreen.xib */; };
 		8379D6481A869DD9002FDDF7 /* BasicInteractionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379D6471A869DD9002FDDF7 /* BasicInteractionTests.swift */; };
+		A49A93901AA8FB11006C1F4A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A938F1AA8FB11006C1F4A /* SwiftyJSON.swift */; };
+		A49A93B11AA90234006C1F4A /* Sweather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A93A11AA90234006C1F4A /* Sweather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8379D6411A869DD9002FDDF7 /* BasicInteractionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicInteractionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8379D6461A869DD9002FDDF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8379D6471A869DD9002FDDF7 /* BasicInteractionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInteractionTests.swift; sourceTree = "<group>"; };
+		A49A938F1AA8FB11006C1F4A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		A49A93A11AA90234006C1F4A /* Sweather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sweather.swift; path = "Sweather-master/Sweather/Sweather.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				8379D6311A869DD9002FDDF7 /* AppDelegate.swift */,
+				A49A938F1AA8FB11006C1F4A /* SwiftyJSON.swift */,
 				8379D6331A869DD9002FDDF7 /* ViewController.swift */,
+				A49A93A11AA90234006C1F4A /* Sweather.swift */,
 				8379D6351A869DD9002FDDF7 /* Main.storyboard */,
 				8379D6381A869DD9002FDDF7 /* Images.xcassets */,
 				8379D63A1A869DD9002FDDF7 /* LaunchScreen.xib */,
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49A93901AA8FB11006C1F4A /* SwiftyJSON.swift in Sources */,
+				A49A93B11AA90234006C1F4A /* Sweather.swift in Sources */,
 				8379D6341A869DD9002FDDF7 /* ViewController.swift in Sources */,
 				8379D6321A869DD9002FDDF7 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +413,7 @@
 				8379D64D1A869DD9002FDDF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8379D64E1A869DD9002FDDF7 /* Build configuration list for PBXNativeTarget "BasicInteractionTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				8379D6501A869DD9002FDDF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
