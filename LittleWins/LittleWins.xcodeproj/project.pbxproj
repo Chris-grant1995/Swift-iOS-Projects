@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83EF16F01AF902B300FC909A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF16EF1AF902B300FC909A /* AppDelegate.swift */; };
+		83EF16F21AF902B300FC909A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF16F11AF902B300FC909A /* ViewController.swift */; };
+		83EF16F51AF902B300FC909A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EF16F31AF902B300FC909A /* Main.storyboard */; };
+		83EF16F71AF902B300FC909A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83EF16F61AF902B300FC909A /* Images.xcassets */; };
+		83EF16FA1AF902B300FC909A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83EF16F81AF902B300FC909A /* LaunchScreen.xib */; };
+		83EF17061AF902B300FC909A /* LittleWinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF17051AF902B300FC909A /* LittleWinsTests.swift */; };
+		83EF17101AF9054500FC909A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 83EF170F1AF9054500FC909A /* Podfile */; };
+		83EF17171AF9063000FC909A /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF17111AF9063000FC909A /* Duration.swift */; };
+		83EF17181AF9063000FC909A /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF17121AF9063000FC909A /* Int+Timepiece.swift */; };
+		83EF17191AF9063000FC909A /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF17131AF9063000FC909A /* NSCalendar+Timepiece.swift */; };
+		83EF171A1AF9063000FC909A /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF17141AF9063000FC909A /* NSDate+Timepiece.swift */; };
+		83EF171B1AF9063000FC909A /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF17151AF9063000FC909A /* NSDateComponents+Timepiece.swift */; };
+		83EF171C1AF9063000FC909A /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF17161AF9063000FC909A /* String+Timepiece.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83EF17001AF902B300FC909A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83EF16E21AF902B300FC909A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83EF16E91AF902B300FC909A;
+			remoteInfo = LittleWins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83EF16EA1AF902B300FC909A /* LittleWins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleWins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EF16EE1AF902B300FC909A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83EF16EF1AF902B300FC909A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83EF16F11AF902B300FC909A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83EF16F41AF902B300FC909A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83EF16F61AF902B300FC909A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83EF16F91AF902B300FC909A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		83EF16FF1AF902B300FC909A /* LittleWinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleWinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EF17041AF902B300FC909A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83EF17051AF902B300FC909A /* LittleWinsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleWinsTests.swift; sourceTree = "<group>"; };
+		83EF170F1AF9054500FC909A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		83EF17111AF9063000FC909A /* Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		83EF17121AF9063000FC909A /* Int+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Timepiece.swift"; sourceTree = "<group>"; };
+		83EF17131AF9063000FC909A /* NSCalendar+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSCalendar+Timepiece.swift"; sourceTree = "<group>"; };
+		83EF17141AF9063000FC909A /* NSDate+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Timepiece.swift"; sourceTree = "<group>"; };
+		83EF17151AF9063000FC909A /* NSDateComponents+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		83EF17161AF9063000FC909A /* String+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Timepiece.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83EF16E71AF902B300FC909A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EF16FC1AF902B300FC909A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83EF16E11AF902B300FC909A = {
+			isa = PBXGroup;
+			children = (
+				83EF16EC1AF902B300FC909A /* LittleWins */,
+				83EF17021AF902B300FC909A /* LittleWinsTests */,
+				83EF16EB1AF902B300FC909A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83EF16EB1AF902B300FC909A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83EF16EA1AF902B300FC909A /* LittleWins.app */,
+				83EF16FF1AF902B300FC909A /* LittleWinsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83EF16EC1AF902B300FC909A /* LittleWins */ = {
+			isa = PBXGroup;
+			children = (
+				83EF170F1AF9054500FC909A /* Podfile */,
+				83EF17111AF9063000FC909A /* Duration.swift */,
+				83EF17121AF9063000FC909A /* Int+Timepiece.swift */,
+				83EF17131AF9063000FC909A /* NSCalendar+Timepiece.swift */,
+				83EF17141AF9063000FC909A /* NSDate+Timepiece.swift */,
+				83EF17151AF9063000FC909A /* NSDateComponents+Timepiece.swift */,
+				83EF17161AF9063000FC909A /* String+Timepiece.swift */,
+				83EF16EF1AF902B300FC909A /* AppDelegate.swift */,
+				83EF16F11AF902B300FC909A /* ViewController.swift */,
+				83EF16F31AF902B300FC909A /* Main.storyboard */,
+				83EF16F61AF902B300FC909A /* Images.xcassets */,
+				83EF16F81AF902B300FC909A /* LaunchScreen.xib */,
+				83EF16ED1AF902B300FC909A /* Supporting Files */,
+			);
+			path = LittleWins;
+			sourceTree = "<group>";
+		};
+		83EF16ED1AF902B300FC909A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83EF16EE1AF902B300FC909A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83EF17021AF902B300FC909A /* LittleWinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				83EF17051AF902B300FC909A /* LittleWinsTests.swift */,
+				83EF17031AF902B300FC909A /* Supporting Files */,
+			);
+			path = LittleWinsTests;
+			sourceTree = "<group>";
+		};
+		83EF17031AF902B300FC909A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83EF17041AF902B300FC909A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83EF16E91AF902B300FC909A /* LittleWins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EF17091AF902B300FC909A /* Build configuration list for PBXNativeTarget "LittleWins" */;
+			buildPhases = (
+				83EF16E61AF902B300FC909A /* Sources */,
+				83EF16E71AF902B300FC909A /* Frameworks */,
+				83EF16E81AF902B300FC909A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleWins;
+			productName = LittleWins;
+			productReference = 83EF16EA1AF902B300FC909A /* LittleWins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83EF16FE1AF902B300FC909A /* LittleWinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EF170C1AF902B300FC909A /* Build configuration list for PBXNativeTarget "LittleWinsTests" */;
+			buildPhases = (
+				83EF16FB1AF902B300FC909A /* Sources */,
+				83EF16FC1AF902B300FC909A /* Frameworks */,
+				83EF16FD1AF902B300FC909A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83EF17011AF902B300FC909A /* PBXTargetDependency */,
+			);
+			name = LittleWinsTests;
+			productName = LittleWinsTests;
+			productReference = 83EF16FF1AF902B300FC909A /* LittleWinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83EF16E21AF902B300FC909A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = CheatTheClock;
+				TargetAttributes = {
+					83EF16E91AF902B300FC909A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					83EF16FE1AF902B300FC909A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 83EF16E91AF902B300FC909A;
+					};
+				};
+			};
+			buildConfigurationList = 83EF16E51AF902B300FC909A /* Build configuration list for PBXProject "LittleWins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83EF16E11AF902B300FC909A;
+			productRefGroup = 83EF16EB1AF902B300FC909A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83EF16E91AF902B300FC909A /* LittleWins */,
+				83EF16FE1AF902B300FC909A /* LittleWinsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83EF16E81AF902B300FC909A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EF16F51AF902B300FC909A /* Main.storyboard in Resources */,
+				83EF16FA1AF902B300FC909A /* LaunchScreen.xib in Resources */,
+				83EF17101AF9054500FC909A /* Podfile in Resources */,
+				83EF16F71AF902B300FC909A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EF16FD1AF902B300FC909A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83EF16E61AF902B300FC909A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EF171C1AF9063000FC909A /* String+Timepiece.swift in Sources */,
+				83EF171B1AF9063000FC909A /* NSDateComponents+Timepiece.swift in Sources */,
+				83EF17171AF9063000FC909A /* Duration.swift in Sources */,
+				83EF17181AF9063000FC909A /* Int+Timepiece.swift in Sources */,
+				83EF171A1AF9063000FC909A /* NSDate+Timepiece.swift in Sources */,
+				83EF16F21AF902B300FC909A /* ViewController.swift in Sources */,
+				83EF16F01AF902B300FC909A /* AppDelegate.swift in Sources */,
+				83EF17191AF9063000FC909A /* NSCalendar+Timepiece.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EF16FB1AF902B300FC909A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EF17061AF902B300FC909A /* LittleWinsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83EF17011AF902B300FC909A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83EF16E91AF902B300FC909A /* LittleWins */;
+			targetProxy = 83EF17001AF902B300FC909A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83EF16F31AF902B300FC909A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83EF16F41AF902B300FC909A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83EF16F81AF902B300FC909A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83EF16F91AF902B300FC909A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83EF17071AF902B300FC909A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83EF17081AF902B300FC909A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83EF170A1AF902B300FC909A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleWins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83EF170B1AF902B300FC909A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleWins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83EF170D1AF902B300FC909A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LittleWinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleWins.app/LittleWins";
+			};
+			name = Debug;
+		};
+		83EF170E1AF902B300FC909A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LittleWinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleWins.app/LittleWins";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83EF16E51AF902B300FC909A /* Build configuration list for PBXProject "LittleWins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EF17071AF902B300FC909A /* Debug */,
+				83EF17081AF902B300FC909A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83EF17091AF902B300FC909A /* Build configuration list for PBXNativeTarget "LittleWins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EF170A1AF902B300FC909A /* Debug */,
+				83EF170B1AF902B300FC909A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83EF170C1AF902B300FC909A /* Build configuration list for PBXNativeTarget "LittleWinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EF170D1AF902B300FC909A /* Debug */,
+				83EF170E1AF902B300FC909A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83EF16E21AF902B300FC909A /* Project object */;
+}
